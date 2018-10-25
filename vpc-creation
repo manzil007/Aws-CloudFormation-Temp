@@ -23,7 +23,7 @@ Parameters:
 
         Type: String
 
-        Default: 10.180.0.0/21
+        Default: 10.178.0.0/21
 
     PublicSubnet1CIDR:
 
@@ -31,7 +31,7 @@ Parameters:
 
         Type: String
 
-        Default: 10.180.0.0/26
+        Default: 10.178.0.0/26
 
     PublicSubnet2CIDR:
 
@@ -39,7 +39,7 @@ Parameters:
 
         Type: String
 
-        Default: 10.180.0.64/26
+        Default: 10.178.0.64/26
 
     PrivateSubnet1CIDR:
 
@@ -47,7 +47,7 @@ Parameters:
 
         Type: String
 
-        Default: 10.180.4.0/24
+        Default: 10.178.1.0/25
 
     PrivateSubnet2CIDR:
 
@@ -55,7 +55,8 @@ Parameters:
 
         Type: String
 
-        Default: 10.180.5.0/24
+        Default: 10.178.1.128/25
+
 
     PrivateSubnet3CIDR:
 
@@ -63,7 +64,7 @@ Parameters:
 
         Type: String
 
-        Default: 10.180.2.0/25
+        Default: 10.178.4.0/24
 
     PrivateSubnet4CIDR:
 
@@ -71,7 +72,7 @@ Parameters:
 
         Type: String
 
-        Default: 10.180.2.128/25
+        Default: 10.178.5.0/24
 
     PrivateSubnet5CIDR:
 
@@ -79,7 +80,7 @@ Parameters:
 
         Type: String
 
-        Default: 10.180.2.0/25
+        Default: 10.178.2.0/25
 
     PrivateSubnet6CIDR:
 
@@ -87,7 +88,7 @@ Parameters:
 
         Type: String
 
-        Default: 10.180.2.128/25
+        Default: 10.178.2.128/25
 
 
 Resources:
